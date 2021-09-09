@@ -4,7 +4,7 @@ pipeline {
     tools { nodejs "node"}
 
     environment  {
-        DOCKERHUB_CRED = credentials('docherhub-token')
+        DOCKERHUB_CRED = credentials('dockerhub-token')
     }
 
     stages {
