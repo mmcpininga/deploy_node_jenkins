@@ -40,6 +40,4 @@ pipeline {
             sh 'docker logout'
         }
         }
-
-    }
-}
+} 
